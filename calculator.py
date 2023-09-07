@@ -78,7 +78,7 @@ def get_operand(text):
             num = float(input(text))
             break
         except:
-            print("Not a valid number, please enter again")
+            print("Not a valid number, please try again")
             continue
     return num
 
